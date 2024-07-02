@@ -1,0 +1,63 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+:root{
+    --cor0: #C5EBD6;
+    --cor1: #FFA99E;
+    --cor2: #ffcE0e;
+    --cor3: #F497C3;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: "Dancing Script", cursive;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}   
+
+header{
+    text-align: center;
+    background-color: var(--cor0);
+    padding: 10px 0px 10px 0px;
+    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.159);
+    font-weight: normal;
+}
+
+span{
+    font-family: var(--fonte-padrao);
+    font-size: medium;
+    padding-right: 20px;
+}
+
+header a{
+    text-decoration: none;
+}
+
+main{
+    font-family: var(--fonte-padrao);
+}
+
+h1{
+    font-family: var(--fonte-destaque);
+    text-align: center;
+}
+
+h2{
+    text-indent: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: small;
+}
+
+footer{
+    background-color: var(--cor0);
+    text-align: center;  
+}
+
+footer>p{
+    font-family: var(--fonte-padrao);
+    font-weight: normal;
+    color: black;
+    padding: 5px;
+}
