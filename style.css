@@ -14,6 +14,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    max-width: 100%;
 }   
 
 main{
@@ -87,5 +88,4 @@ footer.fixar-rodape{
     left: 0;
     height: 150px;
     position: static;
-    width: 100%;
   }
