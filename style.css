@@ -16,11 +16,6 @@
     padding: 0px;
 }   
 
-body{
-    background-color: wheat;
-    background-image: url(imagens/wallpaper/wallpaper001.jpg);
-}
-
 header{
     text-align: center;
     background-color: var(--cor0);
@@ -31,7 +26,7 @@ header{
 
 span{
     font-family: var(--fonte-padrao);
-    font-size: medium;
+    font-size: smaller;
     padding-right: 20px;
 }
 
@@ -41,6 +36,7 @@ header a{
 
 main{
     font-family: var(--fonte-padrao);
+    background-image: url(imagens/wallpaper/wallpaper001.jpg);
 }
 
 .ecocardiografia{
@@ -48,9 +44,8 @@ main{
     height: 300px;
     border: 10px;
     font-family: var(--fonte-padrao);
-    padding-left: 100px;
     font-size: larger;
-    
+    text-indent: 100px;   
 }
 
 .ecocardiografia > p{
@@ -80,15 +75,16 @@ footer>p{
     
     font-family: var(--fonte-padrao);
     font-weight: normal;
+    font-size: smaller;
     color: black;
-    padding: 5px;
+    padding: 2px;
 }
 
 footer.fixar-rodape{
     box-shadow: 6px 0px 7px 1px rgba(0, 0, 0, 0.159);
     bottom: 0;
     left: 0;
-    height: 240px;
-    position: fixed;
+    height: 160px;
+    position: sticky;
     width: 100%;
   }
