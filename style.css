@@ -15,6 +15,7 @@
     margin: 0px;
     padding: 0px;
     max-width: 100%;
+    max-height:100%;
 }   
 
 main{
@@ -69,7 +70,8 @@ h2{
 
 footer{
     background-color: var(--cor0);
-    text-align: center;  
+    text-align: center;
+    padding-top: 5px;  
 }
 
 footer>p{
@@ -78,7 +80,7 @@ footer>p{
     font-weight: normal;
     font-size: smaller;
     color: black;
-    padding: 1px;
+    padding: 3px;
 
 }
 
@@ -86,6 +88,6 @@ footer.fixar-rodape{
     box-shadow: 6px 0px 7px 1px rgba(0, 0, 0, 0.159);
     bottom: 0;
     left: 0;
-    height: 150px;
+    height: 190px;
     position: static;
   }
