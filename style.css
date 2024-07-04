@@ -18,6 +18,7 @@
 
 body{
     background-color: wheat;
+    background-image: url(imagens/wallpaper/wallpaper001.jpg);
 }
 
 header{
@@ -40,6 +41,22 @@ header a{
 
 main{
     font-family: var(--fonte-padrao);
+}
+
+.ecocardiografia{
+    width: 500px;
+    height: 300px;
+    border: 10px;
+    font-family: var(--fonte-padrao);
+    padding-left: 100px;
+    font-size: larger;
+    
+}
+
+.ecocardiografia > p{
+    font-family: var(--fonte-padrao);
+    font-size: large;
+    font-weight: bolder;
 }
 
 h1{
