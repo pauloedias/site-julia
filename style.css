@@ -29,6 +29,7 @@ header{
     box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.159);
     font-weight: normal;
     min-width: 1000px;
+    max-width: 2500px;
 }
 
 span{
@@ -43,13 +44,13 @@ header a{
 
 
 .ecocardiografia{
-    display: inline-block;
+    display: block;
     width: 500px;
     height: 300px;
     border: 10px;
     font-family: var(--fonte-padrao);
     font-size: larger;
-    padding: 200px; 
+    padding: 100px;
 }
 
 .ecocardiografia > p{
