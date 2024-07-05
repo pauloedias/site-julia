@@ -42,12 +42,13 @@ header a{
 
 
 .ecocardiografia{
+    display: inline-block;
     width: 500px;
     height: 300px;
     border: 10px;
     font-family: var(--fonte-padrao);
     font-size: larger;
-    text-indent: 100px;   
+    padding: 200px; 
 }
 
 .ecocardiografia > p{
