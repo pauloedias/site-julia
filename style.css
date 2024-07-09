@@ -16,19 +16,21 @@
     padding: 0px;
 }   
 
+html, body{
+
+        min-width: 100vw;
+}
+
 main{
     background-image: url(imagens/wallpaper/wallpaper001.jpg);
     font-family: var(--fonte-padrao);
-    min-width: 100%;
 }
+
 header{
-    text-align: center;
     background-color: var(--cor0);
     padding: 10px 0px 10px 0px;
     box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.159);
     font-weight: normal;
-    min-width: 100%;
-    max-width: 2500px;
 }
 
 span{
@@ -74,17 +76,14 @@ footer{
     background-color: var(--cor0);
     text-align: center;
     padding-top: 5px;
-    min-width: 100%;
 }
 
 footer>p{
-    
     font-family: var(--fonte-padrao);
     font-weight: normal;
     font-size: smaller;
     color: black;
     padding: 3px;
-
 }
 
 footer.fixar-rodape{
@@ -92,5 +91,5 @@ footer.fixar-rodape{
     bottom: 0;
     left: 0;
     height: 190px;
-    position: static;
+    text-align: center;
   }
