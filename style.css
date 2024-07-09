@@ -19,8 +19,7 @@
 main{
     background-image: url(imagens/wallpaper/wallpaper001.jpg);
     font-family: var(--fonte-padrao);
-    min-width: 1000px;
-
+    min-width: 100%;
 }
 header{
     text-align: center;
@@ -28,7 +27,7 @@ header{
     padding: 10px 0px 10px 0px;
     box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.159);
     font-weight: normal;
-    min-width: 1000px;
+    min-width: 100%;
     max-width: 2500px;
 }
 
@@ -75,7 +74,7 @@ footer{
     background-color: var(--cor0);
     text-align: center;
     padding-top: 5px;
-    min-width: 1000px;
+    min-width: 100%;
 }
 
 footer>p{
