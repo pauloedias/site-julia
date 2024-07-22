@@ -93,3 +93,8 @@ footer.fixar-rodape{
     height: 190px;
     text-align: center;
   }
+
+.iframe{
+    background-color: var(--cor0);
+    width: 100%;
+}
