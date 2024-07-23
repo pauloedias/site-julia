@@ -14,87 +14,30 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: var(--fonte-padrao);
 }   
 
 html, body{
+    background-color: var(--cor1);
     height: 100vh;
     width: 100vw;
 }
 
-main{
-    background-image: url(imagens/wallpaper/wallpaper001.jpg);
-    font-family: var(--fonte-padrao);
-}
-
 header{
     background-color: var(--cor0);
-    padding: 10px 0px 10px 0px;
-    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.159);
-    font-weight: normal;
+    text-align: left;
 }
 
-span{
-    font-family: var(--fonte-padrao);
-    font-size: smaller;
-    padding-right: 10px;
+header > span{
+    padding: 0px 0px 0px 120px;
 }
 
-header a{
-    text-decoration: none;
-}
+main{
 
-
-.ecocardiografia{
-    display: block;
-    width: 500px;
-    height: 300px;
-    border: 10px;
-    font-family: var(--fonte-padrao);
-    font-size: larger;
-    padding: 100px;
-}
-
-.ecocardiografia > p{
-    font-family: var(--fonte-padrao);
-    font-size: large;
-    font-weight: bolder;
-}
-
-h1{
-    font-family: var(--fonte-destaque);
-    text-align: center;
-}
-
-h2{
-    text-indent: 300px;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    font-size: small;
 }
 
 footer{
+    position: relative;
     background-color: var(--cor0);
     text-align: center;
-    padding-top: 5px;
-}
-
-footer>p{
-    font-family: var(--fonte-padrao);
-    font-weight: normal;
-    font-size: smaller;
-    color: black;
-    padding: 3px;
-}
-
-footer.fixar-rodape{
-    box-shadow: 6px 0px 7px 1px rgba(0, 0, 0, 0.159);
-    bottom: 0;
-    left: 0;
-    height: 190px;
-    text-align: center;
-  }
-
-.iframe{
-    background-color: var(--cor0);
-    width: 100%;
 }
