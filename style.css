@@ -14,30 +14,56 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: var(--fonte-padrao);
-}   
+}
 
-html, body{
-    background-color: var(--cor1);
+html{
     height: 100vh;
-    width: 100vw;
-}
-
-header{
     background-color: var(--cor0);
-    text-align: left;
+}
+main {
+    background-color: var(--cor1);
+    background-image: url(imagens/wallpaper/wallpaper003.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 80vh;
 }
 
-header > span{
-    padding: 0px 0px 0px 120px;
+main h1 {
+    text-align: center;
+    font-family: var(--fonte-destaque);
+    font-size: 2.5em;
 }
 
-main{
+main h2 {
+    text-align: center;
+    font-size: 1em;
+}
 
+main ul {
+    padding: 20px;
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+header span{
+    text-align: center;
+    padding-right: 200px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
 }
 
 footer{
-    position: relative;
-    background-color: var(--cor0);
+    background-color: black;
+    color: white;
     text-align: center;
+}
+
+footer iframe{
+    height: 30vh;
 }
