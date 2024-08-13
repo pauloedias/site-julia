@@ -45,13 +45,18 @@ main ul {
 header{
     background-color: black;
     color: white;
-    padding: 10px;
+    padding-left: 10px;
 }
 
 header span{
     text-align: center;
-    padding-right: 200px;
+    padding-right: 0px;
 }
+
+header span.material-symbols-outlined {
+    font-size: 1em;
+}
+
 
 header a {
     text-decoration: none;
