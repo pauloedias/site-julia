@@ -20,6 +20,33 @@ html{
     height: 100vh;
     background-color: var(--cor0);
 }
+
+header{
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    text-align: center;
+}
+
+header span{
+    text-align: center;
+}
+
+header span#call{
+    text-align: center;
+    display: block;
+}
+
+header span.material-symbols-outlined {
+    font-size: 1em;
+}
+
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
 main {
     background-color: var(--cor1);
     background-image: url(imagens/wallpaper/wallpaper003.jpg);
@@ -39,29 +66,16 @@ main h2 {
     font-size: 1em;
 }
 
+main h3{
+    text-align: center;
+    margin-top: 50px;
+}
+
 main ul {
     padding: 20px;
-}
-header{
-    background-color: black;
-    color: white;
-    padding-left: 10px;
+    margin-left: 60px;
 }
 
-header span{
-    text-align: center;
-    padding-right: 0px;
-}
-
-header span.material-symbols-outlined {
-    font-size: 1em;
-}
-
-
-header a {
-    text-decoration: none;
-    color: white;
-}
 
 footer{
     background-color: black;
