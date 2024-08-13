@@ -16,7 +16,7 @@
     padding: 0px;
 }
 
-html{
+html, body{
     height: 100vh;
     background-color: var(--cor0);
 }
@@ -52,7 +52,6 @@ main {
     background-image: url(imagens/wallpaper/wallpaper003.jpg);
     background-repeat: no-repeat;
     background-position: center center;
-    height: 100vh;
 }
 
 main h1 {
