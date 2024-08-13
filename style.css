@@ -87,6 +87,11 @@ footer{
     font-size: 1em;
 }
 
+footer > p > a {
+    text-decoration: none;
+    color: white;
+}
+
 footer iframe{
     height: 30vh;
 }
