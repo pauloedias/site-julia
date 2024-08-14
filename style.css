@@ -3,7 +3,7 @@
 
 :root{
     --cor0: #C5EBD6;
-    --cor1: #FFA99E;
+    --cor1: #ffa99eb8;
     --cor2: #ffcE0e;
     --cor3: #F497C3;
 
@@ -22,8 +22,8 @@ html, body{
 }
 
 header{
-    background-color: black;
-    color: white;
+    background-color: var(--cor1);
+    color: black;
     padding-left: 10px;
     text-align: center;
     font-size: 0.8em;
@@ -45,7 +45,7 @@ header span.material-symbols-outlined {
 
 header a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 main {
@@ -80,8 +80,8 @@ main ul {
 
 
 footer{
-    background-color: black;
-    color: white;
+    background-color: var(--cor1);
+    color: black;
     text-align: center;
     position: relative;
     font-size: 1em;
@@ -89,7 +89,7 @@ footer{
 
 footer > p > a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 footer iframe{
