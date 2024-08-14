@@ -3,7 +3,7 @@
 
 :root{
     --cor0: #C5EBD6;
-    --cor1: #ffa99eb8;
+    --cor1: #ffa99ea9;
     --cor2: #ffcE0e;
     --cor3: #F497C3;
 
@@ -50,7 +50,7 @@ header a {
 
 main {
     background-color: var(--cor1);
-    background-image: url(imagens/wallpaper/wallpaper003.jpg);
+    background-image: url(imagens/wallpaper/wallpaper001.jpg);
     background-repeat: no-repeat;
     background-position: center center;
 }
