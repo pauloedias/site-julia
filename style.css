@@ -26,16 +26,8 @@ header{
     color: black;
     padding-left: 10px;
     text-align: center;
-    font-size: 0.8em;
-}
-
-header span{
-    text-align: center;
-}
-
-header span#call{
-    text-align: center;
-    display: block;
+    font-size: 1em;
+    display: grid;
 }
 
 header span.material-symbols-outlined {

@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+@media screen and (min-width:992px) and (max-width: 1200px) {
+    header{
+        background-color: var(--cor1);
+        color: black;
+        padding-left: 10px;
+        font-size: 1.1em;
+        display: flex;
+    }
+
+    header > span {
+        padding-left: 150px;
+    }
+
+    div.ecocardiografia {
+        text-align: left;
+    }
+
+    main h3{
+        text-align: left;
+        margin-top: 50px;
+        padding-left: 60px;
+        font-size: 1.5em;
+    }
+
+}
+
+@media screen and (min-width:1200px) {
+    header{
+        background-color: var(--cor1);
+        color: black;
+        padding-left: 10px;
+        font-size: 1.1em;
+        display: flex;
+    }
+
+    header > span {
+        padding-left: 250px;
+    }
+
+    main h3{
+        text-align: center;
+        margin-top: 50px;
+        font-size: 1.5em;
+    }
+    
+    main ul {
+        padding: 20px;
+        margin-left: 40vw;
+        font-size: 1.2em;
+    }
+}
