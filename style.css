@@ -3,7 +3,7 @@
 
 :root{
     --cor0: #C5EBD6;
-    --cor1: #ffa99ea9;
+    --cor1: #ffa99e19;
     --cor2: #ffcE0e;
     --cor3: #F497C3;
 
@@ -45,6 +45,7 @@ main {
     background-image: url(imagens/wallpaper/wallpaper001.jpg);
     background-repeat: no-repeat;
     background-position: center center;
+    height: 80vh;
 }
 
 main h1 {
